@@ -1,8 +1,6 @@
 
-#include "clipper.h"
-extern "C"{
-    #include "./clipper.hpp"
-}
+#include "./clipper.hpp"
+#include "./clipper_capi.hpp"
 
 
 struct Polygon_T : ClipperLib::Path{
