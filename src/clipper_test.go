@@ -20,10 +20,9 @@ func TestPolygon(t *testing.T) {
 	rect2.AppendIntPoint(clipper.NewIntPoint(3, -1))
 	require.Equal(t,  uint32(4), rect1.EdgeNum())
 	require.Equal(t, float64(4), rect1.Area())
-	require.Equal(t, float64(0.25), rect1.IntersectionRate(rect2))
+	require.Equal(t, 0.25, rect1.IntersectionRate(rect2))
 	rect1.Delete()
 	rect2.Delete()
-
 }
 
 

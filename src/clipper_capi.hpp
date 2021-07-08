@@ -20,7 +20,7 @@ unsigned int EdgeNum(Polygon_T* polygon);
 
 double PolygonArea(Polygon_T* polygon);
 
-//
+//  (two polygon intersection area) / (polygon2 / area)
 double IntersectionRate(Polygon_T* polygon1, Polygon_T* polygon2);
 
 #if __cplusplus

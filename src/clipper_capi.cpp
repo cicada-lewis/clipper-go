@@ -64,7 +64,7 @@ double IntersectionRate(Polygon_T* polygon1, Polygon_T* polygon2){
         areaSum += ClipperLib::Area(single);
     }
     if (areaSum == 0)
-        // 当两个图形不相交的时候，相交面积为0
+        // when the intersection area of two polygons is zero, return it
         return areaSum;
     auto polygonArea = ClipperLib::Area(*polygon2);
     return std::abs(areaSum) / std::abs(polygonArea);
