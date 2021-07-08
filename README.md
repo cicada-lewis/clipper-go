@@ -7,7 +7,7 @@ build wtih cgo and wrap [Angus Johnson's clipper](http://www.angusj.com/delphi/c
 ## Setup
 
 ```
-go install git.querycap.com/tools/clipper-go
+go install github.com/Catelemmon/clipper-go
 ```
 
 ## Function

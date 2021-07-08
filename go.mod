@@ -1,4 +1,4 @@
-module git.querycap.com/tools/clipper-go
+module github.com/Catelemmon/clipper-go
 
 go 1.16
 
